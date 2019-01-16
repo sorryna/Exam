@@ -44,11 +44,17 @@ export class ResultPage {
               console.log("SS" + this.Data)
             },
               error => {
-                // ERROR: Do something
               });
         },
         error => {
-          // ERROR: Do something
         });
+  }
+
+  back() {
+    this.http.delete<Money>("http://localhost:5000/api/Money").subscribe(
+      it => {
+        this.navCtrl.pop()
+      }, error => {
+      });
   }
 }

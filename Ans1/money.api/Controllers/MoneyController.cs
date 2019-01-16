@@ -46,9 +46,10 @@ namespace money.api.Controllers
         }
 
         // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        [HttpDelete]
+        public void Delete()
         {
+            Data.RemoveAll(it => true);
         }
     }
 }
