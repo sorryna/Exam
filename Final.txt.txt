@@ -1,0 +1,7 @@
+Question 1 in folder Ans1 =>
+	Mobile => money,
+	API => money,
+	Test => money.test(not imprement)
+Question 2 in folder Ans2 =>
+	Mobile => shop,
+	API => shop.api
