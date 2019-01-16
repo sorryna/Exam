@@ -1,0 +1,14 @@
+E:\Exam\Ans2\shop.api\bin\Debug\netcoreapp2.1\shop.api.deps.json
+E:\Exam\Ans2\shop.api\bin\Debug\netcoreapp2.1\shop.api.runtimeconfig.json
+E:\Exam\Ans2\shop.api\bin\Debug\netcoreapp2.1\shop.api.runtimeconfig.dev.json
+E:\Exam\Ans2\shop.api\bin\Debug\netcoreapp2.1\shop.api.dll
+E:\Exam\Ans2\shop.api\bin\Debug\netcoreapp2.1\shop.api.pdb
+E:\Exam\Ans2\shop.api\obj\Debug\netcoreapp2.1\shop.api.csprojAssemblyReference.cache
+E:\Exam\Ans2\shop.api\obj\Debug\netcoreapp2.1\shop.api.csproj.CoreCompileInputs.cache
+E:\Exam\Ans2\shop.api\obj\Debug\netcoreapp2.1\shop.api.RazorAssemblyInfo.cache
+E:\Exam\Ans2\shop.api\obj\Debug\netcoreapp2.1\shop.api.RazorAssemblyInfo.cs
+E:\Exam\Ans2\shop.api\obj\Debug\netcoreapp2.1\shop.api.AssemblyInfoInputs.cache
+E:\Exam\Ans2\shop.api\obj\Debug\netcoreapp2.1\shop.api.AssemblyInfo.cs
+E:\Exam\Ans2\shop.api\obj\Debug\netcoreapp2.1\shop.api.RazorTargetAssemblyInfo.cache
+E:\Exam\Ans2\shop.api\obj\Debug\netcoreapp2.1\shop.api.dll
+E:\Exam\Ans2\shop.api\obj\Debug\netcoreapp2.1\shop.api.pdb
