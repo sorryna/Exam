@@ -19,12 +19,12 @@
   <ion-item text-center>
     <ion-label>ชื่อสินค้า</ion-label>
     <ion-label>ราคาต่อหน่วย</ion-label>
-    <ion-label>จำนวนที่ต้องการ</ion-label>
+    <ion-label>จำนวน</ion-label>
   </ion-item>
-  <ion-row text-center>
-    <ion-label>ชื่อสินค้า</ion-label>
-    <ion-label>ราคาต่อหน่วย</ion-label>
-    <ion-input class="backgroundinput" type="number">จำนวนที่ต้องการ</ion-input>
+  <ion-row text-center *ngFor="let item of Data">
+    <ion-label>{{ item.name }}</ion-label>
+    <ion-label>{{ item.price }}</ion-label>
+    <ion-input class="backgroundinput" type="number" [(ngModel)]="item.count"></ion-input>
   </ion-row>
   <button ion-button round block (click)="cart()">Add to Cart</button>
 </ion-content>

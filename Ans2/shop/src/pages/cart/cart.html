@@ -7,12 +7,32 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>cart</ion-title>
+    <ion-title>Cart</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+  <ion-item text-center>
+    <ion-label>ชื่อสินค้า</ion-label>
+    <ion-label>ราคา</ion-label>
+    <ion-label>จำนวน</ion-label>
+    <ion-label>รวม</ion-label>
+    <ion-label>ส่วนลด</ion-label>
+  </ion-item>
+  <ion-row text-center *ngFor="let item of Data">
+    <ion-label>{{ item.name }}</ion-label>
+    <ion-label>{{ item.price }}</ion-label>
+    <ion-label>{{ item.count }}</ion-label>
+    <ion-label>{{ item.totalPrice }}</ion-label>
+    <ion-label>{{ item.discount }}</ion-label>
+  </ion-row>
+  <ion-item text-center>
+    <ion-label>รวมทั้งหมด</ion-label>
+    <ion-label>{{ Total }}</ion-label>
+    <ion-label>หักส่วนลดแล้ว</ion-label>
+    <ion-label>{{ Discount }}</ion-label>
+  </ion-item>
+  <button ion-button round block (click)="ok()">OK</button>
 </ion-content>

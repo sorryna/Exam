@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HttpClient } from '@angular/common/http';
+import { Item } from '../../Models/Item';
 
 /**
  * Generated class for the ShopPage page.
@@ -14,15 +16,28 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'shop.html',
 })
 export class ShopPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  public Data: Item
+  constructor(public navCtrl: NavController, public navParams: NavParams, public http: HttpClient) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ShopPage');
+    this.http.get<Item>("http://localhost:5000/api/Item")
+      .subscribe((it) => {
+        this.Data = it;
+        console.log(this.Data)
+      },
+        error => {
+        });
   }
 
-  cart(){
+  cart() {
+    console.log(this.Data)
+    this.http.post<Item>("http://localhost:5000/api/ItemInCart",this.Data).subscribe(
+        it => {
+          console.log("Success")
+        },
+        error => {
+        });
     this.navCtrl.push("CartPage")
   }
 }
