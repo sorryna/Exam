@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Money } from '../../models/model';
+import { HttpClient } from '@angular/common/http';
 
 /**
  * Generated class for the ResultPage page.
@@ -15,11 +17,38 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ResultPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  public Data: Money
+  public inter: any
+  public loan: number
+  public year: number
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, public http: HttpClient) {
+    this.inter = this.navParams.get('data')
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ResultPage');
   }
 
+  result() {
+    this.http.post<Money>("http://localhost:5000/api/Money",
+      {
+        year: this.year,
+        loan: this.loan,
+        interest: this.inter
+      }).subscribe(
+        it => {
+          this.http.get<Money>("http://localhost:5000/api/Money")
+            .subscribe((it) => {
+              this.Data = it;
+              console.log("SS" + this.Data)
+            },
+              error => {
+                // ERROR: Do something
+              });
+        },
+        error => {
+          // ERROR: Do something
+        });
+  }
 }

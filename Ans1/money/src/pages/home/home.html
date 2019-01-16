@@ -10,9 +10,8 @@
 
   <ion-item>
     <ion-label floating>อัตตราดอกเบี้ยที่ต้องการ(%)</ion-label>
-    <ion-input type="number"></ion-input>
+    <ion-input type="number" [(ngModel)]="inter"></ion-input>
   </ion-item>
-<ion-item ></ion-item>
-  <button ion-button (click)='goResult()' round block>Next</button>
+  <button ion-button (click)='goResult(inter)' round block>Next</button>
 
 </ion-content>

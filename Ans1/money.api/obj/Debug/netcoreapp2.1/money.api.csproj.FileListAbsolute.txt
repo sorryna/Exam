@@ -1,0 +1,14 @@
+E:\Exam\Ans1\money.api\obj\Debug\netcoreapp2.1\money.api.csprojAssemblyReference.cache
+E:\Exam\Ans1\money.api\obj\Debug\netcoreapp2.1\money.api.csproj.CoreCompileInputs.cache
+E:\Exam\Ans1\money.api\obj\Debug\netcoreapp2.1\money.api.RazorAssemblyInfo.cache
+E:\Exam\Ans1\money.api\obj\Debug\netcoreapp2.1\money.api.RazorAssemblyInfo.cs
+E:\Exam\Ans1\money.api\obj\Debug\netcoreapp2.1\money.api.AssemblyInfoInputs.cache
+E:\Exam\Ans1\money.api\obj\Debug\netcoreapp2.1\money.api.AssemblyInfo.cs
+E:\Exam\Ans1\money.api\bin\Debug\netcoreapp2.1\money.api.deps.json
+E:\Exam\Ans1\money.api\bin\Debug\netcoreapp2.1\money.api.runtimeconfig.json
+E:\Exam\Ans1\money.api\bin\Debug\netcoreapp2.1\money.api.runtimeconfig.dev.json
+E:\Exam\Ans1\money.api\bin\Debug\netcoreapp2.1\money.api.dll
+E:\Exam\Ans1\money.api\bin\Debug\netcoreapp2.1\money.api.pdb
+E:\Exam\Ans1\money.api\obj\Debug\netcoreapp2.1\money.api.RazorTargetAssemblyInfo.cache
+E:\Exam\Ans1\money.api\obj\Debug\netcoreapp2.1\money.api.dll
+E:\Exam\Ans1\money.api\obj\Debug\netcoreapp2.1\money.api.pdb
