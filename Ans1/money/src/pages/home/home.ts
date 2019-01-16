@@ -11,4 +11,8 @@ export class HomePage {
 
   }
 
+  goResult(){
+    console.log("1231354")
+    this.navCtrl.push("ResultPage")
+  }
 }
