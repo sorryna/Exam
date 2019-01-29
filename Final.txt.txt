@@ -2,6 +2,13 @@ Question 1 in folder Ans1 =>
 	Mobile => money,
 	API => money,
 	Test => money.test(not imprement)
+
+(App: 9/10, Api: 8/10, Test: 1/5) Total 18
+	
 Question 2 in folder Ans2 =>
 	Mobile => shop,
 	API => shop.api
+
+(App: 20/25, Api: 14/20, Test: 0/10) Total 34
+
+Summary 52
